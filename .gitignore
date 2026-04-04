@@ -2,6 +2,9 @@
 *.docx
 *.doc
 
+# Private notes
+req.md
+
 # macOS
 .DS_Store
 .AppleDouble
