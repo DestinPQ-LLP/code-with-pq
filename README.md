@@ -394,4 +394,4 @@ Open WebUI is optional. VS Code + Continue is the primary workflow surface.
 
 ---
 
-*Source basis verified April 2026. Built for Apple Silicon M4 · 128 GB unified memory.*
+Source basis verified April 2026. Built for Apple Silicon M4 · 128 GB unified memory.
