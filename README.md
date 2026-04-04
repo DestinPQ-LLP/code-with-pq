@@ -296,7 +296,7 @@ Open WebUI is optional. VS Code + Continue is the primary workflow surface.
 | 16 GB | E2B good, E4B borderline | Realistic starter if disciplined | Light only | Starter tier |
 | 32 GB | E4B sweet spot, 26B limited | Productive for most workflows | Yes | **Best value tier** |
 | 64 GB | E4B excellent, 26B solid, 31B reasonable | Strong workstation feel | Yes | Serious local tier |
-| 128 GB | Anything in the family | Full workflow, long contexts | Yes, freely | **Top tier — this machine** |
+| 128 GB | Anything in the family | Full workflow, long contexts | Yes, freely | **Top tier** |
 
 ### DDR3 (older machines)
 
