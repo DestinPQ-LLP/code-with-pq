@@ -1,0 +1,39 @@
+name: Local AI Factory
+version: 0.0.1
+schema: v1
+
+models:
+  - name: Gemma 4 31B
+    provider: ollama
+    model: gemma4:31b
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+      - edit
+      - apply
+    capabilities:
+      - tool_use
+      - image_input
+    defaultCompletionOptions:
+      contextLength: 8192
+      temperature: 0.2
+      reasoning: true
+      keepAlive: 1800
+
+  - name: Gemma 4 E4B Fast
+    provider: ollama
+    model: gemma4:e4b
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+    capabilities:
+      - tool_use
+      - image_input
+    defaultCompletionOptions:
+      contextLength: 4096
+      temperature: 0.2
+      reasoning: false
+      keepAlive: 1800
+
+rules:
+  - uses: file://./rules/local-dev.md
